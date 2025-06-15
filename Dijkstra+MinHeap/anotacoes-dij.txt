@@ -1,0 +1,35 @@
+  Dijkastra: encontra o caminho mais curto entre um
+nó de origem e todos os outros nós de um grafo ponde-
+rado (cujas arestas tem peso).
+
+1° Inicio: Define a distância do nó de origem para 0,
+o restante dos nós, infinito. Todos os nós não ainda
+não foram visitados.
+
+2° Iteração: 
+  while nos_visit != 0
+    seleciona nó com menor dist do atual
+    no_atual = visitados
+    for i in nós visinhos
+      dist = origem + atual + viz
+      if dist < dist.vizinho
+        dist.vizinho = dist
+
+Obs: A parte do [if dist] é a parte do relaxamento.
+
+'Agora tô afim de relaxar...'
+
+Relaxar: tentar melhorar a distância atual do vértice
+vizinho, a partir do caminho atual.
+
+3° Conclusão: Quando todos os nós forem visitados, o al-
+goritmo terá encontrado o caminho mais curto para todos
+os nós (a partir do nó de origem).
+
+--- HEAP ---
+
+Heap (fila de prioridade): armazena todas as arestas em 
+uma lista, de modo organizado em ordem crescente, otimi-
+zando a busca pela aresta de menor valor, ao invés de
+varrer o grafo inteiro (todos os vizinhos atuais) para
+encontrá-la.

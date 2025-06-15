@@ -1,0 +1,7 @@
+  Algortimos Gulosos: sempre faz a melhor opção local ("no 
+momento") esperando ser a melhor solução global ("final").
+
+- Mochila Fracionária: há três tipos de joias em quantidades
+diferentes. Como obter a maior quantia em valor sem exceder o 
+peso da mochila?
+  R: Tomar os itens de maior valor por quilo.
